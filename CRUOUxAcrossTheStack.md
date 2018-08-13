@@ -206,7 +206,30 @@ Result resource at :id will be gone
 
 ---
 
-### Gjermund G Thorsen
+# Update mark for deletion
+
+curl -XPATCH http[s]://localhost/:id
+
+payload:
+
+{
+ "_x":"CCYY-MM-DD HH:II:SS"
+}
+
+---
+
+Result: 
+
+{
+ "field1":"field1content",
+ "field2":"field2content",
+ "field3":"field3content",
+ "_x":"2018-08-13 19:52:00"
+}
+
+---
+
+### Gjermund Gusland Thorsen
 ### Keyboard Masseur
 
 ---

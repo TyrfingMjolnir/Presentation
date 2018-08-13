@@ -188,7 +188,7 @@ Result:
  "field2":"field2contentNew"
 }
 
-Note that field3 from POST is gone!
+### Note that field3 from POST is gone
 
 {
  "field3":"field3content"

@@ -99,8 +99,8 @@ orderID | orderID | orderID
 
 ---
 
-# Example by use case CRUOUx or CRUD( simplified ) calls using curl for Kitura, Restify, Express, Vapor, the likes
-
+## Example by use case CRUOUx or CRUD( simplified ) calls using curl for Kitura, Restify, Express, Vapor, the likes
+---
 1. Create by using POST
 1. Read by using GET
 1. Update replace value at key for :id in payload by using PATCH

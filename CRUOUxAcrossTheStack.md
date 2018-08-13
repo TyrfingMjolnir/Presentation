@@ -1,3 +1,4 @@
+Footer: !ghuser TyrfingMjolnir Gjermund Gusland Thorsen on CRUOUx aka CRUD
 # CRUOUx actual CRUD throughout the stack
 
 Stack | Create | Read | Overwrite | Update | Delete

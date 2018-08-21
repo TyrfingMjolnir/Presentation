@@ -7,4 +7,4 @@ Most people call this CRUD; I find CRUD to be incomplete; hence this presentatio
 
 CRUOUx = Create Read Update Overwrite Update mark for deletion.
 
-PDF created using DeckSet 1.x
+PDF created using the Mac app DeckSet 1.x

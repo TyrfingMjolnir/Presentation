@@ -29,7 +29,7 @@ The purpose of this method is to update subsets( key, value pairs ) of a resourc
 
 Pros: Will not touch values for keys not mentioned in payload
 
-Pros and cons when comparing PATCH and PUT
+^^ Pros and cons when comparing PATCH and PUT
 
 #### query
 
@@ -44,9 +44,10 @@ In essence this is exactly the same as running DELETE /:id and POST in sequence;
 The purpose of this method is to overwrite a given resource according to the submitted payload
 
 Pros: Can be used to overwrite an unwanted resource.
+
 Cons: Used as update this will overwrite values for all keys not mentioned in payload.
 
-Pros and cons when comparing PATCH and PUT
+^^ Pros and cons when comparing PATCH and PUT
 
 #### query
 

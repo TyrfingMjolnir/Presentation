@@ -1,6 +1,6 @@
 # CRUOD - CRUD in full, Create, Read, Update, Overwrite, Delete
 
-## POST
+## POST   
 ### The use case of the HTTP verb/method POST is create
 
 The purpose of this method is to create a resource from the submitted payload.
@@ -19,7 +19,7 @@ http://localhost/user
 }
 ```
 
-#### result
+#### result( in order to stay obedient to this format result is also shown as JSON )
 
 ```
 {
@@ -27,7 +27,7 @@ http://localhost/user
 }
 ```
 
-## GET
+## GET    
 ### The use case of the HTTP verb/method GET is read
 
 The purpose of this method is to retrieve a resource according to resource
@@ -38,7 +38,7 @@ The purpose of this method is to retrieve a resource according to resource
 
 #### result
 
-## PATCH
+## PATCH  
 ### The use case of the HTTP verb/method PATCH is update
 
 The purpose of this method is to update subsets( key, value pairs ) of a resource according to the submitted payload; utilizing both the submitted resource id and payload keys to overwrite only those keys mentioned in the payload when updating the datastore.
@@ -53,7 +53,7 @@ Pros: Will not touch values for keys not mentioned in payload
 
 #### result
 
-## PUT
+## PUT    
 ### The use case of the HTTP verb/method PUT is overwrite
 
 In essence this is exactly the same as running DELETE /:id and POST in sequence; however with a resource id
@@ -71,7 +71,7 @@ Cons: Used as update this will overwrite values for all keys not mentioned in pa
 
 #### result
 
-## DELETE
+## DELETE 
 ### The use case of the HTTP verb/method DELETE is delete
 
 The purpose of this method is to delete a resource according to its submitted key
@@ -81,3 +81,4 @@ The purpose of this method is to delete a resource according to its submitted ke
 #### payload
 
 #### result
+

@@ -20,7 +20,7 @@ The purpose of this method is to update subsets( key, value pairs ) of a resourc
 
 In essence this is exactly the same as POST; however with a resource id in its url.
 The practical use is a delete of what is at the resource and replacing it with the payload, you can look at this either as a "secure"-delete or an expensive PATCH. 
-The purpose of this method is to overwrite a resource according to the submitted payload
+The purpose of this method is to overwrite a given resource according to the submitted payload
 
 ## DELETE
 ### The use case of the HTTP verb/method DELETE is delete

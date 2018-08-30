@@ -19,7 +19,7 @@ http://localhost/user
 }
 ```
 
-#### result( in order to stay obedient to this format result is also shown as JSON )
+#### result ( in order to stay obedient to this format result is also shown as JSON )
 
 ```
 {
@@ -34,9 +34,19 @@ The purpose of this method is to retrieve a resource according to resource
 
 #### query
 
+```
+http://localhost/user/:id
+```
+
 #### payload
 
-#### result
+#### response 
+
+```
+{
+  "username":"User"
+}
+```
 
 ## PATCH  
 ### The use case of the HTTP verb/method PATCH is update
@@ -49,9 +59,34 @@ Pros: Will not touch values for keys not mentioned in payload
 
 #### query
 
+```
+http://localhost/user/:id
+```
+
 #### payload
 
+```
+{
+  "phone":"1(555)123-4567",
+  "mobile":"1(555)123-4568",
+  "facsimile":"1(555)123-4569",
+  "epost":"user@domain.tld",
+  "fullname":"firstname lastname"
+}
+```
+
 #### result
+
+```
+{
+  "username":"User",
+  "phone":"1(555)123-4567",
+  "mobile":"1(555)123-4568",
+  "facsimile":"1(555)123-4569",
+  "epost":"user@domain.tld",
+  "fullname":"firstname lastname"
+}
+```
 
 ## PUT    
 ### The use case of the HTTP verb/method PUT is overwrite
@@ -67,9 +102,25 @@ Cons: Used as update this will overwrite values for all keys not mentioned in pa
 
 #### query
 
+```
+http://localhost/user/:id
+```
+
 #### payload
 
+```
+{
+  "fullname":"firstname lastname"
+}
+```
+
 #### result
+
+```
+{
+  "fullname":"firstname lastname"
+}
+```
 
 ## DELETE 
 ### The use case of the HTTP verb/method DELETE is delete
@@ -78,7 +129,11 @@ The purpose of this method is to delete a resource according to its submitted ke
 
 #### query
 
+```
+http://localhost/user/:id
+```
+
 #### payload
 
 #### result
-
+[]

@@ -36,7 +36,7 @@ The purpose of this method is to update subsets( key, value pairs ) of a resourc
 ## PUT
 ### The use case of the HTTP verb/method PUT is overwrite
 
-In essence this is exactly the same as POST; however with a resource id
+In essence this is exactly the same as running DELETE and POST in sequence; however with a resource id
 The purpose of this method is to overwrite a resource according to the submitted payload
 
 #### query

@@ -40,7 +40,7 @@ Pros and cons when comparing PATCH and PUT
 ## PUT
 ### The use case of the HTTP verb/method PUT is overwrite
 
-In essence this is exactly the same as running DELETE /:id and POST /:id in sequence; however with a resource id
+In essence this is exactly the same as running DELETE /:id and POST in sequence; however with a resource id
 The purpose of this method is to overwrite a given resource according to the submitted payload
 
 Pros: Can be used to overwrite an unwanted resource.

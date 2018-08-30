@@ -27,6 +27,10 @@ The purpose of this method is to retrieve a resource according to resource
 
 The purpose of this method is to update subsets( key, value pairs ) of a resource according to the submitted payload; utilizing both the submitted resource id and payload keys to overwrite only those keys mentioned in the payload when updating the datastore.
 
+Pros: Will not touch values for keys not mentioned in payload
+
+Pros and cons when comparing PATCH and PUT
+
 #### query
 
 #### payload
@@ -36,8 +40,13 @@ The purpose of this method is to update subsets( key, value pairs ) of a resourc
 ## PUT
 ### The use case of the HTTP verb/method PUT is overwrite
 
-In essence this is exactly the same as running DELETE and POST in sequence; however with a resource id
-The purpose of this method is to overwrite a resource according to the submitted payload
+In essence this is exactly the same as running DELETE /:id and POST /:id in sequence; however with a resource id
+The purpose of this method is to overwrite a given resource according to the submitted payload
+
+Pros: Can be used to overwrite an unwanted resource.
+Cons: Used as update this will overwrite values for all keys not mentioned in payload.
+
+Pros and cons when comparing PATCH and PUT
 
 #### query
 

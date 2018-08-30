@@ -1,4 +1,4 @@
-# CRUOD or CRUD in full, Create, Read, Update, Overwrite, Delete
+# CRUOD - CRUD in full, Create, Read, Update, Overwrite, Delete
 
 ## POST
 ### The use case of the HTTP verb/method POST is create
@@ -18,6 +18,7 @@ The purpose of this method is to update subsets( key, value pairs ) of a resourc
 ## PUT
 ### The use case of the HTTP verb/method PUT is overwrite
 
+In essence this is exactly the same as POST; however with a resource id in its url
 The purpose of this method is to overwrite a resource according to the submitted payload
 
 ## DELETE

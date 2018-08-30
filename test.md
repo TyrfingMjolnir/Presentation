@@ -7,9 +7,25 @@ The purpose of this method is to create a resource from the submitted payload.
 
 #### query
 
+```
+http://localhost/user
+```
+
 #### payload
 
+```
+{
+  "username":"User"
+}
+```
+
 #### result
+
+```
+{
+  "username":"User"
+}
+```
 
 ## GET
 ### The use case of the HTTP verb/method GET is read
@@ -29,7 +45,7 @@ The purpose of this method is to update subsets( key, value pairs ) of a resourc
 
 Pros: Will not touch values for keys not mentioned in payload
 
-^^ Pros and cons when comparing PATCH and PUT
+^^ Pros and cons when comparing PATCH to PUT
 
 #### query
 
@@ -47,7 +63,7 @@ Pros: Can be used to overwrite an unwanted resource.
 
 Cons: Used as update this will overwrite values for all keys not mentioned in payload.
 
-^^ Pros and cons when comparing PATCH and PUT
+^^ Pros and cons when comparing PATCH to PUT
 
 #### query
 

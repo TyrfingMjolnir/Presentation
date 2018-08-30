@@ -1,4 +1,4 @@
-# CRUOD - CRUD in full, Create, Read, Update, Overwrite, Delete
+# CRUOD or CRUD in full, Create, Read, Update, Overwrite, Delete
 
 ## POST
 ### The use case of the HTTP verb/method POST is create
